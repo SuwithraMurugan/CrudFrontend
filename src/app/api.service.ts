@@ -7,7 +7,7 @@ import { Contact } from './contact';
 })
 export class ApiService {
 
-  API_SERVER = "http://localhost:3000";
+  API_SERVER =  "http://localhost:3000";
 
   constructor(private httpClient: HttpClient) { }
 
